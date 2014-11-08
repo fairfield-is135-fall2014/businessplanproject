@@ -45,7 +45,7 @@
 </div>   </div> 
       <div id="content">
       <div id="container">
-      <body class="ltr size-normal fit2content" ng:style="{background: rendered_colors.mainBg}" ng:click="closePopups()" ng:class="{withpromo: settings.promotion, fit2content: fit2content()}" style="background: rgb(66, 92, 114);">
+      <body class="ltr size-normal fit2content" ng:style="{background: rendered_colors.mainBg}" ng:click="closePopups()" ng:class="{withpromo: settings.promotion, fit2content: fit2content()}" style="background: #FF0000;">
 
 	<div class="inffuse-container">
 		<!-- ngInclude: getTemplate() --><div id="template-container" ng:style="{'border-color': rendered_colors.mainBorder}" ng:include="getTemplate()" onload="onTemplateLoaded()" class="ng-scope" style="border-color: rgb(99, 138, 172);"><style class="ng-scope">
@@ -397,7 +397,7 @@
 		</div>
 		<div id="weeks-container">
 			<!-- ngRepeat: (iweek,week) in month --><div class="week ng-scope" ng:repeat="(iweek,week) in month">
-				<!-- ngRepeat: (iday,day) in week --><div class="day ng-scope inactive" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				<!-- ngRepeat: (iday,day) in week --><div class="day ng-scope inactive" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">30</div>
 
@@ -441,7 +441,7 @@
 					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope inactive" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope inactive" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">4</div>
 
@@ -452,7 +452,7 @@
 					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">5</div>
 
@@ -463,7 +463,7 @@
 					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">6</div>
 
@@ -476,7 +476,7 @@
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
 				</div><!-- end ngRepeat: (iday,day) in week -->
 			</div><!-- end ngRepeat: (iweek,week) in month --><div class="week ng-scope" ng:repeat="(iweek,week) in month">
-				<!-- ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				<!-- ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">7</div>
 
@@ -487,7 +487,7 @@
 					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">8</div>
 
@@ -506,7 +506,7 @@
 					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);">-</a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">9</div>
 
@@ -517,7 +517,7 @@
 					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">10</div>
 
@@ -533,10 +533,10 @@
 						</div><!-- end ngRepeat: event in day.events | limitTo: (day.displayCount||1000) track by $index -->
 					</div>
 
-					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);">-</a>
+					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">11</div>
 
@@ -547,7 +547,7 @@
 					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">12</div>
 
@@ -558,7 +558,7 @@
 					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">13</div>
 
@@ -587,7 +587,7 @@
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
 				</div><!-- end ngRepeat: (iday,day) in week -->
 			</div><!-- end ngRepeat: (iweek,week) in month --><div class="week ng-scope" ng:repeat="(iweek,week) in month">
-				<!-- ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				<!-- ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">14</div>
 
@@ -598,7 +598,7 @@
 					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">15</div>
 
@@ -609,7 +609,7 @@
 					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">16</div>
 
@@ -620,7 +620,7 @@
 					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">17</div>
 
@@ -631,7 +631,7 @@
 					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">18</div>
 
@@ -647,10 +647,10 @@
 						</div><!-- end ngRepeat: event in day.events | limitTo: (day.displayCount||1000) track by $index -->
 					</div>
 
-					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);">-</a>
+					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">19</div>
 
@@ -661,7 +661,7 @@
 					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">20</div>
 
@@ -674,7 +674,7 @@
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
 				</div><!-- end ngRepeat: (iday,day) in week -->
 			</div><!-- end ngRepeat: (iweek,week) in month --><div class="week ng-scope" ng:repeat="(iweek,week) in month">
-				<!-- ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				<!-- ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">21</div>
 
@@ -685,7 +685,7 @@
 					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">22</div>
 
@@ -696,7 +696,7 @@
 					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">23</div>
 
@@ -707,7 +707,7 @@
 					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">24</div>
 
@@ -718,7 +718,7 @@
 					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">25</div>
 
@@ -729,7 +729,7 @@
 					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">26</div>
 
@@ -740,7 +740,7 @@
 					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">27</div>
 
@@ -753,7 +753,7 @@
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
 				</div><!-- end ngRepeat: (iday,day) in week -->
 			</div><!-- end ngRepeat: (iweek,week) in month --><div class="week ng-scope" ng:repeat="(iweek,week) in month">
-				<!-- ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				<!-- ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">28</div>
 
@@ -764,7 +764,7 @@
 					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">29</div>
 
@@ -775,7 +775,7 @@
 					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">30</div>
 
@@ -783,10 +783,10 @@
 						<!-- ngRepeat: event in day.events | limitTo: (day.displayCount||1000) track by $index -->
 					</div>
 
-					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"</a>
+					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">31</div>
 
@@ -797,7 +797,7 @@
 					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">1</div>
 
@@ -808,7 +808,7 @@
 					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">2</div>
 
@@ -819,7 +819,7 @@
 					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">3</div>
 
@@ -827,12 +827,12 @@
 						<!-- ngRepeat: event in day.events | limitTo: (day.displayCount||1000) track by $index -->
 					</div>
 
-					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);">-</a>
+					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
 				</div><!-- end ngRepeat: (iday,day) in week -->
 			</div><!-- end ngRepeat: (iweek,week) in month --><div class="week ng-scope" ng:repeat="(iweek,week) in month">
-				<!-- ngRepeat: (iday,day) in week --><div class="day ng-scope inactive" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				<!-- ngRepeat: (iday,day) in week --><div class="day ng-scope inactive" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">4</div>
 
@@ -840,10 +840,10 @@
 						<!-- ngRepeat: event in day.events | limitTo: (day.displayCount||1000) track by $index -->
 					</div>
 
-					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);">-</a>
+					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope inactive" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope inactive" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">5</div>
 
@@ -851,10 +851,10 @@
 						<!-- ngRepeat: event in day.events | limitTo: (day.displayCount||1000) track by $index -->
 					</div>
 
-					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);">-</a>
+					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope inactive" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope inactive" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">6</div>
 
@@ -862,10 +862,10 @@
 						<!-- ngRepeat: event in day.events | limitTo: (day.displayCount||1000) track by $index -->
 					</div>
 
-					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);">-</a>
+					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope inactive" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope inactive" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">7</div>
 
@@ -873,10 +873,10 @@
 						<!-- ngRepeat: event in day.events | limitTo: (day.displayCount||1000) track by $index -->
 					</div>
 
-					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);">-</a>
+					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope inactive" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope inactive" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">8</div>
 
@@ -884,10 +884,10 @@
 						<!-- ngRepeat: event in day.events | limitTo: (day.displayCount||1000) track by $index -->
 					</div>
 
-					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);">-</a>
+					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope inactive" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope inactive" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">9</div>
 
@@ -895,10 +895,10 @@
 						<!-- ngRepeat: event in day.events | limitTo: (day.displayCount||1000) track by $index -->
 					</div>
 
-					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);">-</a>
+					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
-				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope inactive" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: rgb(191, 218, 242); border-color: rgb(51, 51, 51); background: rgb(102, 102, 102);">
+				</div><!-- end ngRepeat: (iday,day) in week --><div class="day ng-scope inactive" ng:repeat="(iday,day) in week" ng:class="{today: day.today, inactive: day.inactive}" ng:style="{color: rendered_colors.text, 'border-color': rendered_colors.innerBorder, background: rendered_colors.blockBg}" style="color: black; border-color: black; background: white;">
 
 					<div class="day-number inactivable ng-binding">10</div>
 
@@ -906,7 +906,7 @@
 						<!-- ngRepeat: event in day.events | limitTo: (day.displayCount||1000) track by $index -->
 					</div>
 
-					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);">-</a>
+					<a class="more inactivable ng-binding ng-hide" ng:show="day.displayCount" ng:style="{color: event.color || rendered_colors.events}" ng:click="openPopup('day',{day:day},$event)" style="color: rgb(191, 218, 242);"></a>
 					
 					<!-- <div class="inactive" ng:if="day.inactive" ng:style="{background: overlayColor}"></div> -->
 				</div><!-- end ngRepeat: (iday,day) in week -->
