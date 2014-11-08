@@ -26,15 +26,16 @@ body {
 
 #page-header h1 {
   font: bold italic 3em "Georgia", "Times",serif;
-  display: inline-block; 
   margin:0;
   vertical-align: middle;
   color: white; 
+  text-align: center; 
 }
 
 #page-header h2 {
   font: bolder italic 1.5em "Georgia", "Times", serif;
-  color: white;  
+  color: white;
+  text-align: center;   
 }
 
 #user-links {
@@ -53,7 +54,7 @@ body {
 }
 #navbar {
   background-color: #333;
-  padding-left: 1em; 
+  padding-left: 0.5em; 
 }
 
 #navbar ul {
@@ -62,6 +63,10 @@ body {
 
 #navbar ul li {
   display: inline-block;
+  padding: .5em;
+  border: 1px solid #333;
+  border-radius: .5em;
+  margin: 0; 
 }
 
 #navbar a {
@@ -69,6 +74,9 @@ body {
   text-decoration: none;
   padding: 0.25em; 
   display:inline-block; 
+  border: 1px solid
+  border-radius: .5em;
+  margin: 0; 
 }
 
 #navbar a:hover {
