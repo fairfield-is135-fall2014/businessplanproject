@@ -92,6 +92,22 @@ h2 {
   font: bolder 1.5em "Georgia", "Times", serif;
 }
 
+div class="ui-datepicker-title" {
+  display: block; 
+  margin: -10px auto 20px auto;
+  background-color: #white;
+  padding: 0;
+  text-align: right;
+  width: 960px;
+}
+
+table class="ui-datepicker-calendar" {
+  width: 100%;
+  font-size: .9em;
+  border-collapse: collapse;
+  margin: 0 0 .4em;  
+}
+
 p {
   font: normal 1em "Veranda", "Helvetica", "Arial", sans-serif; 
 }   
