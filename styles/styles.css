@@ -126,6 +126,7 @@ table {
     table-layout: fixed;
     border-collapse: collapse;
     width: 100%;
+    background-color: white; 
     }
 /* Styling for the column headers (days of the week) */
 th {
