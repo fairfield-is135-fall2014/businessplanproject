@@ -118,7 +118,7 @@ div.footer {
     text-align: center;
     }
 /* Styling for the overall table */
-table {
+table { 
     font: 100% Verdana, Arial, Helvetica, sans-serif;
     table-layout: fixed;
     border-collapse: collapse;
@@ -160,4 +160,6 @@ th.month {
     display:none;
     }
 
-   
+footer p {
+  text-align:left
+}   
