@@ -11,7 +11,7 @@ body {
 }
 
 #page-wrapper {
-  width:1200px;
+  width:960px;
   background-color: #FF0000;
   margin: 0 auto; 
 }
@@ -35,7 +35,7 @@ body {
   vertical-align: middle;
   color: white; 
   text-align: center;
-  text-shadow: .1em .1em .2em lightslategray;   
+  text-shadow: .1em .1em .2em lightslategray;  
 }
 
 #page-header h2 {
@@ -60,6 +60,7 @@ body {
 #user-links a:hover {
   text-decoration: underline; 
 }
+
 #navbar {
   background-color: #333;
   padding-left: 0.5em; 
@@ -99,10 +100,21 @@ body {
 
 h2 {
   font: bolder 1.5em "Georgia", "Times", serif;
-  text-align: center; 
+  text-align: left; 
 }
 
 p {
   font: 1em Veranda,Helvetica,Arial,sans-serif;
-  text-align: center; 
+  text-align: left; 
+}
+
+#main {
+  float: left;
+  width: 650px;
+  margin: 0 20px; 
+}
+
+#c
+#footer {
+  clear: left; 
 }
