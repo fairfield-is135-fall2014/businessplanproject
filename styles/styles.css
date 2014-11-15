@@ -14,7 +14,7 @@ body {
 }
 
 #page-wrapper {
-  width:960px;
+  width: 960px;
   background-color: #FF0000;
   margin: 0 auto; 
 }
@@ -49,6 +49,21 @@ body {
   text-shadow: .1em .1em .2em lightslategray; 
 }
 
+#main {
+  float: left;
+  width: 650px;
+  margin: 0 20px;
+}
+
+#calendar {
+  float: left;
+  width: 660px; 
+  margin: 0 20px 0 0; 
+}
+
+#footer {
+  clear: left; 
+}
 #user-links {
   position:absolute;
   top: 10px; 
@@ -111,16 +126,6 @@ p {
   text-align: left; 
 }
 
-#main {
-  float: left;
-  width: 650px;
-  margin: 0 20px;
-}
-
-#c
-#footer {
-  clear: left; 
-}
 /* Styling for the title (Month and Year) of the calendar */
 div.title {
     font: x-large Verdana, Arial, Helvetica, sans-serif;
