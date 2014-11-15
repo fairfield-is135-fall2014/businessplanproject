@@ -60,10 +60,9 @@ h2 {
 }
 
 #calendar {
-  float: left;
+  float: right;
 	width: 620px;
-	margin: 0 20px 0 0;
-	display: inline; 
+	margin: 0 20px 0 0; 
 }
 
 #footer {
@@ -141,9 +140,8 @@ div.footer {
 table { 
     font: 100% Verdana, Arial, Helvetica, sans-serif;
     float: right;
-    table-layout: fixed;
-    border-collapse: collapse;
-    width: 100%;
+	  width: 620px;
+	  margin: 0 20px 0 0; 
     background-color: white; 
     }
 /* Styling for the column headers (days of the week) */
