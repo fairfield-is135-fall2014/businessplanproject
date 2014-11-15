@@ -41,12 +41,12 @@ h2 {
 
 #main {
   float: left;
-  width: 60%;
+  width: 50%;
 }
 
 #calendar {
   float: left;
-	width: 35%;
+	width: 50%;
 }
 
 #footer {
