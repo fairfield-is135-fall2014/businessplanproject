@@ -71,8 +71,27 @@ h2 {
   text-decoration: none; 
 }
 
+#user-links a:visited {
+  color: black; 
+}
+
 #user-links a:hover {
+  background-color: red;  
   text-decoration: underline; 
+}
+
+#useful-links a {
+  color: white;
+  text-decoration: none;
+}
+
+#useful-links a:visited {
+  color: black;
+}
+
+#useful-links a:hover {
+  background-color: red; 
+  text-decoration: underline;
 }
 
 #navbar {
