@@ -11,7 +11,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', end
   font: 12pt Veranda,Helvetica,Arial,sans-serif;
   color: white;
   width: 50%; 
-  text-align: center; 
+  text-align: left; 
 }
 
 #page-header {
@@ -28,7 +28,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', end
   margin:0;
   vertical-align: middle;
   color: white; 
-  text-align: center;
+  text-align: left;
   text-shadow: .1em .1em .2em lightslategray;  
 }
 
@@ -40,31 +40,35 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', end
   font: bolder italic 1.5em "Georgia", "Times", serif;
   vertical-align: middle; 
   color: white;
-  text-align: center;   
+  text-align: left;   
   text-shadow: .1em .1em .2em lightslategray; 
 }
 
 h2 {
   font: bolder 1.5em "Georgia", "Times", serif;
-  text-align: center; 
+  text-align: left; 
 }
 
 #main {
-  width: 50%;
-  text-align: center;
+  float: left; 
+  width: 45%;
+  margin: 0;  
+  text-align: left;
 }
 
 .content clearfix {
-  width: 50%; 
+  float: left; 
+  width: 45%; 
+  margin: 0 2.5%; 
 }
 
 #calendar {
-	max-width: 50%;
+	width: 45%;
 }
 
 #footer {
   clear: left;
-  text-align: center;  
+  text-align: left;  
 }
 
 #user-links {
@@ -102,6 +106,9 @@ h2 {
 }
 
 #navbar {
+  float: left;
+  width: 22.5%; 
+  margin: 0 0 0 2.5%; 
   background-color: #333;
   padding-left: 0.5em; 
 }
@@ -124,7 +131,7 @@ h2 {
   text-decoration: none;
   padding: 0.25em; 
   display:inline-block; 
-  border: 1px solid
+  border: 1px solid;
   border-radius: .5em;
   margin: 0; 
 }
@@ -134,8 +141,44 @@ h2 {
   text-shadow: 2px 2px #333; 
 }
 
+#navbar-two {
+  float: left; 
+  width: 22.5%;
+  margin: 0 2.5% 0 0; 
+  background-color: #333;
+  padding-left: 0.5em; 
+}
+
+#navbar-two ul {
+  padding:0; 
+}
+
+#navbar-two ul li {
+  display: inline-block;
+  padding: .5em;
+  border: 1px solid #333;
+  border-radius: .5em;
+  margin: 0; 
+  text-shadow: .1em .1em .2em lightslategray; 
+}
+
+#navbar-two a {
+  color: #FFFFFF; 
+  text-decoration: none;
+  padding: 0.25em; 
+  display:inline-block; 
+  border: 1px solid; 
+  border-radius: .5em;
+  margin: 0; 
+}
+
+#navbar-two a:hover {
+  background-color: #666;
+  text-shadow: 2px 2px #333; 
+}
+
 p {
-  font: 1em Veranda,Helvetica,Arial,sans-serif;
+  font: 12pt Veranda,Helvetica,Arial,sans-serif;
   text-align: left; 
 }
 
