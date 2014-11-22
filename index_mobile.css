@@ -1,0 +1,198 @@
+@media screen and (min-width: 320px) {
+body {
+  background: #a90329; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  font: 12pt Veranda,Helvetica,Arial,sans-serif;
+  color: white;
+  width: 50%; 
+  text-align: center; 
+}
+
+#page-header {
+  padding-top: 1em;
+  position: relative; 
+}
+
+#page-header img {
+  vertical-align: middle;
+}
+
+#page-header h1 {
+  font: bold italic 3em "Georgia", "Times",serif;
+  margin:0;
+  vertical-align: middle;
+  color: white; 
+  text-align: center;
+  text-shadow: .1em .1em .2em lightslategray;  
+}
+
+#page-title h1 {
+  font: bold 1.8em "Georgia", "Times", serif;
+}
+
+#page-header h2 {
+  font: bolder italic 1.5em "Georgia", "Times", serif;
+  vertical-align: middle; 
+  color: white;
+  text-align: center;   
+  text-shadow: .1em .1em .2em lightslategray; 
+}
+
+h2 {
+  font: bolder 1.5em "Georgia", "Times", serif;
+  text-align: left; 
+}
+
+#main {
+  width: 50%;
+  text-align: center;
+}
+
+.content clearfix {
+  width: 50%; 
+}
+
+#calendar {
+	max-width: 50%;
+}
+
+#footer {
+  clear: left;
+  text-align: center;  
+}
+
+#user-links {
+  position:absolute;
+  top: 10px; 
+  right: 15px; 
+}
+
+#user-links a {
+  color: white;
+  text-decoration: none; 
+}
+
+#user-links a:visited {
+  color: black; 
+}
+
+#user-links a:hover {
+  background-color: red;  
+  text-decoration: underline; 
+}
+
+#read-guide a {
+  color: white;
+  text-decoration: none;  
+}
+
+#read-guide a:visited {
+  color: black;
+}
+
+#read-guide a:hover {
+  background-color: red; 
+  text-decoration: underline;
+}
+
+#navbar {
+  background-color: #333;
+  padding-left: 0.5em; 
+}
+
+#navbar ul {
+  padding:0; 
+}
+
+#navbar ul li {
+  display: inline-block;
+  padding: .5em;
+  border: 1px solid #333;
+  border-radius: .5em;
+  margin: 0; 
+  text-shadow: .1em .1em .2em lightslategray; 
+}
+
+#navbar a {
+  color: #FFFFFF; 
+  text-decoration: none;
+  padding: 0.25em; 
+  display:inline-block; 
+  border: 1px solid
+  border-radius: .5em;
+  margin: 0; 
+}
+
+#navbar a:hover {
+  background-color: #666;
+  text-shadow: 2px 2px #333; 
+}
+
+p {
+  font: 1em Veranda,Helvetica,Arial,sans-serif;
+  text-align: left; 
+}
+
+/* Styling for the title (Month and Year) of the calendar */
+div.title {
+    font: x-large Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: 100%;
+    background-color: white;
+    color: black;
+    text-shadow: .1em .1em .2em lightslategray; 
+    }
+/* Styling for the footer */
+div.footer {
+    font: small Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+    }
+/* Styling for the overall table */
+table { 
+    font: 100% Verdana, Arial, Helvetica, sans-serif;
+    float: left;
+	  width: 20%;
+	  margin: 0 5% 0; 
+    background-color: white; 
+    }
+/* Styling for the column headers (days of the week) */
+th {
+    padding: 0 0.5em;
+    text-align: center;
+    background-color:gray;
+    color:white;
+    }
+/* Styling for the individual cells (days) */
+td  {     
+    font-size: medium;
+    padding: 0.25em 0.25em;   
+    width: 14%; 
+    height: 80px;
+    text-align: left;
+    vertical-align: top;
+    color: white; 
+    }
+/* Styling for the date numbers */
+.date  {     
+    font-size: large;
+    padding: 0.25em 0.25em;   
+    text-align: left;
+    vertical-align: top;
+    color: black; 
+    }
+/* Class for individual days (coming in future release) */
+.sun {
+     color:white;
+     }
+/* Hide the month element (coming in future release) */
+th.month {
+    visibility: hidden;
+    display:none;
+    }
+    }
