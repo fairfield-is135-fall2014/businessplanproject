@@ -51,15 +51,31 @@ h2 {
 
 #main {
   float: left; 
-  width: 45%;
+  width: 46%;
   margin: 0;  
   text-align: left;
 }
 
 .content clearfix {
   float: left; 
-  width: 45%; 
+  width: 35%; 
   margin: 0 2.5%; 
+}
+
+#navbar {
+  float: left;
+  width: 21%; 
+  margin: 0 0 0 2%; 
+  background-color: #333;
+  padding-left: 0.5em; 
+}
+
+#navbar-two {
+  float: left; 
+  width: 21%;
+  margin: 0 2% 0 0; 
+  background-color: #333;
+  padding-right: 0.5em; 
 }
 
 #calendar {
@@ -107,10 +123,18 @@ h2 {
 
 #navbar {
   float: left;
-  width: 22.5%; 
-  margin: 0 0 0 2.5%; 
+  width: 21%; 
+  margin: 0 0 0 2%; 
   background-color: #333;
   padding-left: 0.5em; 
+}
+
+#navbar-two {
+  float: left; 
+  width: 21%;
+  margin: 0 2% 0 0; 
+  background-color: #333;
+  padding-right: 0.5em; 
 }
 
 #navbar ul {
@@ -139,14 +163,6 @@ h2 {
 #navbar a:hover {
   background-color: #666;
   text-shadow: 2px 2px #333; 
-}
-
-#navbar-two {
-  float: left; 
-  width: 22.5%;
-  margin: 0 2.5% 0 0; 
-  background-color: #333;
-  padding-left: 0.5em; 
 }
 
 #navbar-two ul {
