@@ -127,6 +127,38 @@ h2 {
   text-shadow: 2px 2px #333; 
 }
 
+#navbar-two {
+  background-color: #333;
+  padding-left: 0.5em; 
+}
+
+#navbar-two ul {
+  padding:0; 
+}
+
+#navbar-two ul li {
+  display: inline-block;
+  padding: .5em;
+  border: 1px solid #333;
+  border-radius: .5em;
+  margin: 0; 
+  text-shadow: .1em .1em .2em lightslategray; 
+}
+
+#navbar-two a {
+  color: #FFFFFF; 
+  text-decoration: none;
+  padding: 0.25em; 
+  display:inline-block; 
+  border: 1px solid
+  border-radius: .5em;
+  margin: 0; 
+}
+
+#navbar-two a:hover {
+  background-color: #666;
+  text-shadow: 2px 2px #333; 
+}
 p {
   font: 1em Veranda,Helvetica,Arial,sans-serif;
   text-align: left; 
