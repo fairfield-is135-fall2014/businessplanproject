@@ -11,6 +11,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', end
   color: white; 
 }
 
+form {
+  color: black; 
+}
+
 #page-header {
   padding-top: 1em;
   position: relative; 
