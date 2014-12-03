@@ -55,9 +55,14 @@ h2 {
   width: 50%;
 }
 
+.content_clearfix {
+  float: left;
+  width: 50%; 
+}
+
 #calendar {
   float: left;
-	width: 50%;
+	width: 40%;
 }
 
 #footer {
