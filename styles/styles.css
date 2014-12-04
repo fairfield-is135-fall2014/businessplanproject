@@ -136,16 +136,16 @@ h2 {
   text-shadow: 2px 2px #333; 
 }
 
-#navbar-two {
+.dropdown-menu {
   background-color: black;
   padding-left: 0.5em; 
 }
 
-#navbar-two ul {
+.dropdown-menu ul {
   padding:0; 
 }
 
-#navbar-two ul li {
+.dropdown-menu ul li {
   display: inline-block;
   padding: .5em;
   border: 1px solid #333;
@@ -154,7 +154,7 @@ h2 {
   text-shadow: .1em .1em .2em #999999; 
 }
 
-#navbar-two a {
+.dropdown-menu a {
   color: #FFFFFF; 
   text-decoration: none;
   padding: 0.25em; 
@@ -163,7 +163,7 @@ h2 {
   margin: 0; 
 }
 
-#navbar-two a:hover {
+.dropdown-menu a:hover {
   background-color: #666;
   text-shadow: 2px 2px #333; 
 }
