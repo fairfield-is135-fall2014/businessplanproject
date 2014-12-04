@@ -53,20 +53,24 @@ h2 {
 #main {
   float: left;
   width: 50%;
+  margin: 0;
 }
 
 .content_clearfix {
   float: left;
-  max-width: 50%; 
+  width: 50%;
+  margin: 0;  
 }
 
 #calendar {
   float: left;
 	width: 50%;
+  margin: 0;  
 }
+ 
 
 #footer {
-  clear: left; 
+  float: left; 
 }
 
 #user-links {
@@ -231,6 +235,6 @@ th.month {
     }  
 
 /* ----- One-Column Mobile Layout ----- */
-#main, content_clearfix, #calendar, #footer {
-  width: 100% 
+#main, .content_clearfix, #calendar, #footer {
+  width: 100%; 
 }
