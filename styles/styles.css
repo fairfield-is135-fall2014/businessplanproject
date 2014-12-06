@@ -46,18 +46,13 @@ form {
 }
 
 h2 {
-  font: bolder 1.5em "Georgia", "Times", serif;
+  font: bolder 1.5em "Georgia", "Times", serif; 
   text-align: left; 
 }
 
 .content_clearfix {
   float: left; 
   width: 50%; 
-}
-
-.calendar-caption {
-  float: left;
-  width: 50%;
 }
 
 #calendar {
