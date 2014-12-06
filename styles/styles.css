@@ -50,27 +50,18 @@ h2 {
   text-align: left; 
 }
 
-#main {
-  float: left;
-  width: 50%;
-  margin: 0;
-}
-
-.content_clearfix {
-  float: left;
-  width: 50%;
-  margin: 0;  
+#main, .content_clearfix {
+  width: 50%; 
 }
 
 #calendar {
   float: left;
-	width: 50%;
-  margin: 0;  
+  width: 50%; 
 }
- 
 
 #footer {
-  float: left; 
+  float: left;
+  width: 50%; 
 }
 
 #user-links {
@@ -315,6 +306,7 @@ td  {
 .sun {
      color:white;
      }
+
 /* Hide the month element (coming in future release) */
 th.month {
     visibility: hidden;
