@@ -140,6 +140,10 @@ h2 {
   text-shadow: 2px 2px #333; 
 }
 
+. button {
+  background-color: black;
+  padding-left: 0.5em; 
+}
 .dropdown-menu {
   background-color: black;
   padding-left: 0.5em; 
