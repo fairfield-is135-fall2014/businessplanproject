@@ -15,6 +15,10 @@ form {
   color: black; 
 }
 
+#container {
+  width: 100%; 
+  margin: 0; 
+}
 #page-header {
   padding-top: 1em;
   position: relative; 
@@ -55,12 +59,12 @@ h2 {
   width: 50%; 
 }
 
-#calendar {
+#main {
   float: left;
   width: 50%; 
 }
 
-#main {
+#calendar {
   float: left;
   width: 50%; 
 }
