@@ -71,6 +71,11 @@ h2 {
   width: 50%;  
 }
 
+#site-map {
+  float: left;
+  width: 50%;
+}
+
 #footer {
   float: left;
   width: 100%; 
@@ -313,7 +318,8 @@ table {
 	  height: 100%; 
     width: 100%;
 	  margin: 0; 
-    background-color: white; 
+    background-color: white;
+    vertical-align:top;  
     }
 /* Styling for the column headers (days of the week) */
 th {
@@ -348,8 +354,3 @@ td  {
 th.month {
     display: table;
     }  
-
-/* Two-Column Fluid Layout */
-#calendar {
-  table-layout: auto;
-}
