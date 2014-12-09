@@ -54,17 +54,7 @@ h2 {
   text-align: left; 
 }
 
-.content_clearfix {
-  float: left; 
-  width: 50%; 
-}
-
 #main {
-  float: left;
-  width: 50%; 
-}
-
-#calendar {
   float: left;
   width: 50%; 
 }

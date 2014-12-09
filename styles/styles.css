@@ -60,9 +60,9 @@ h2 {
   width: 50%; 
 }
 
-#main {
+#main { 
   float: left;
-  width: 50%; 
+  width: 50%;  
 }
 
 .calendar {
@@ -346,8 +346,3 @@ th.month {
     visibility: hidden;
     display:none;
     }  
-
-/* ----- One-Column Mobile Layout ----- */
-#main, .content_clearfix, #calendar, #footer {
-  width: 100%; 
-}
