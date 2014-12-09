@@ -62,7 +62,8 @@ h2 {
 
 #main { 
   float: left;
-  width: 100%;  
+  width: 100%;
+  margin-left: 1%;   
 }
 
 .calendar {
@@ -307,7 +308,7 @@ div.footer {
     }
 /* Styling for the overall table */
 table { 
-    font: 100% Verdana, Arial, Helvetica, sans-serif;
+    font: small Verdana, Arial, Helvetica, sans-serif;
     float: left;
 	  width: 50%;
 	  margin: 0; 
@@ -324,7 +325,7 @@ th {
 td  {     
     font-size: medium;
     padding: 0.25em 0.25em;   
-    width: 14%; 
+    width: 50px; 
     height: 80px;
     text-align: left;
     vertical-align: top;
