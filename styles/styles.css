@@ -308,9 +308,10 @@ div.footer {
     }
 /* Styling for the overall table */
 table { 
-    font: small Verdana, Arial, Helvetica, sans-serif;
+    font: large Verdana, Arial, Helvetica, sans-serif;
     float: left;
-	  width: 50%;
+	  height: 100%; 
+    width: 100%;
 	  margin: 0; 
     background-color: white; 
     }
@@ -323,10 +324,9 @@ th {
     }
 /* Styling for the individual cells (days) */
 td  {     
-    font-size: medium;
+    font-size: large;
     padding: 0.25em 0.25em;   
-    width: 50px; 
-    height: 80px;
+    height: 100%; 
     text-align: left;
     vertical-align: top;
     color: white; 
@@ -346,6 +346,10 @@ td  {
 
 /* Hide the month element (coming in future release) */
 th.month {
-    visibility: hidden;
-    display:none;
+    display: table;
     }  
+
+/* Two-Column Fluid Layout */
+#calendar {
+  table-layout: auto;
+}
