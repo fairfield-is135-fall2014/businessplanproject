@@ -62,7 +62,7 @@ h2 {
 
 #main { 
   float: left;
-  width: 50%;  
+  width: 100%;  
 }
 
 .calendar {
@@ -72,7 +72,9 @@ h2 {
 
 #footer {
   float: left;
-  width: 50%; 
+  width: 100%; 
+  position: inherit;
+  bottom: 0; 
 }
 
 #user-links {
