@@ -266,6 +266,28 @@ p {
   text-align: left; 
 }
 
+a:link {
+  font: 1em Veranda,Helvetica,Aria,sans-serif;
+  text-decoration: none;
+  color: white; 
+}
+
+a:visited {
+  font: 1em Veranda,Helvetica,Aria,sans-serif;
+  text-decoration: none; 
+  color: black;  
+}
+
+a:hover {
+  font: 1em Veranda,Helvetica,Aria,sans-serif;
+  text-decoration: underline; 
+}
+
+a:active {
+  font: 1em Veranda,Helvetica,Aria,sans-serif;
+  text-decoration: underline;
+}
+
 /* Styling for the title (Month and Year) of the calendar */
 div.title {
     font: x-large Verdana, Arial, Helvetica, sans-serif;
