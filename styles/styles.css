@@ -55,29 +55,25 @@ h2 {
   text-align: left; 
 }
 
-.business-planvid {
-  float: left; 
+.business-planvid { 
   width: 50%; 
 }
 
 #main { 
-  float: left;
   width: 80%;
   margin-left: 0.5%;   
 }
 
 .calendar {
-  float: left;
   width: 50%;  
 }
 
 #site-map {
-  float: left;
   width: 50%; 
 }
 
 #footer {
-  float: left;
+  float: left; 
   width: 100%; 
   position: inherit;
   bottom: 0; 
@@ -296,61 +292,4 @@ a:active {
   text-decoration: underline;
 }
 
-/* Styling for the title (Month and Year) of the calendar */
-div.title {
-    font: x-large Verdana, Arial, Helvetica, sans-serif;
-    float: left; 
-    text-align: center;
-    height: 100%;
-    background-color: white;
-    color: black;
-    text-shadow: .1em .1em .2em lightslategray; 
-    }
-/* Styling for the footer */
-div.footer {
-    font: small Verdana, Arial, Helvetica, sans-serif;
-    text-align: center;
-    }
-/* Styling for the overall table */
-table { 
-    font: large Verdana, Arial, Helvetica, sans-serif;
-    float: left;
-	  height: 100%; 
-    width: 100%;
-	  margin: 0; 
-    background-color: white;
-    vertical-align:top;  
-    }
-/* Styling for the column headers (days of the week) */
-th {
-    padding: 0 0.5em;
-    text-align: center;
-    background-color:gray;
-    color:white;
-    }
-/* Styling for the individual cells (days) */
-td  {     
-    font-size: large;
-    padding: 0.25em 0.25em;   
-    height: 100%; 
-    text-align: left;
-    vertical-align: top;
-    color: white; 
-    }
-/* Styling for the date numbers */
-.date  {     
-    font-size: large;
-    padding: 0.25em 0.25em;   
-    text-align: left;
-    vertical-align: top;
-    color: black; 
-    }
-/* Class for individual days (coming in future release) */
-.sun {
-     color:white;
-     }
-
-/* Hide the month element (coming in future release) */
-th.month {
-    display: table;
-    }  
+ 
